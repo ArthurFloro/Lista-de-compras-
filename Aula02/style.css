@@ -1,0 +1,44 @@
+/* 3 tipos 
+. - classe
+# - id
+tag - div  */
+body{
+    background-image: url('santa\ cruz.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+nav{
+    margin-left:430px;
+}
+a{
+    font-size: 24px;
+    font-family: cursive;
+    color: black;
+    text-decoration: none;
+    padding: 12px;
+}
+a:hover{
+    color: yellow;
+}
+
+.container{
+    display: flex;
+}
+
+/* .cont1, .cont2{
+    margin-left: 150px;
+} */
+.cont1, .cont2{
+    padding: 40px;
+}
+img{
+    width: 180px;
+    height: 180px;
+}
+
+.cont3{
+    display: flex;
+}
+
+
